@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="10" passed="10" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-03-14T13:42:20 IST" name="Test My Calculator" finished-at="2024-03-14T13:42:20 IST" duration-ms="81">
+    <groups>
+      <group name="negative">
+        <method signature="CalculatorTest.DivideByZero()[pri:0, instance:testPackage.CalculatorTest@226a82c4]" name="DivideByZero" class="testPackage.CalculatorTest"/>
+        <method signature="CalculatorTest.TestDivideNegativeNumbers()[pri:0, instance:testPackage.CalculatorTest@226a82c4]" name="TestDivideNegativeNumbers" class="testPackage.CalculatorTest"/>
+        <method signature="CalculatorTest.TestNegativeSquareRoot()[pri:0, instance:testPackage.CalculatorTest@226a82c4]" name="TestNegativeSquareRoot" class="testPackage.CalculatorTest"/>
+        <method signature="CalculatorTest.TestOverflowingInputs()[pri:0, instance:testPackage.CalculatorTest@226a82c4]" name="TestOverflowingInputs" class="testPackage.CalculatorTest"/>
+        <method signature="CalculatorTest.testInvalidInputTrigonometric()[pri:0, instance:testPackage.CalculatorTest@226a82c4]" name="testInvalidInputTrigonometric" class="testPackage.CalculatorTest"/>
+        <method signature="CalculatorTest.testPowerOperation()[pri:0, instance:testPackage.CalculatorTest@226a82c4]" name="testPowerOperation" class="testPackage.CalculatorTest"/>
+      </group> <!-- negative -->
+      <group name="positive">
+        <method signature="CalculatorTest.AddTwoNumbers()[pri:0, instance:testPackage.CalculatorTest@226a82c4]" name="AddTwoNumbers" class="testPackage.CalculatorTest"/>
+        <method signature="CalculatorTest.DivideTwoNumbers()[pri:0, instance:testPackage.CalculatorTest@226a82c4]" name="DivideTwoNumbers" class="testPackage.CalculatorTest"/>
+        <method signature="CalculatorTest.MultiplyTwoNumbers()[pri:0, instance:testPackage.CalculatorTest@226a82c4]" name="MultiplyTwoNumbers" class="testPackage.CalculatorTest"/>
+        <method signature="CalculatorTest.SubtractTwoNumbers()[pri:0, instance:testPackage.CalculatorTest@226a82c4]" name="SubtractTwoNumbers" class="testPackage.CalculatorTest"/>
+      </group> <!-- positive -->
+    </groups>
+    <test started-at="2024-03-14T13:42:20 IST" name="Run Calculator Test" finished-at="2024-03-14T13:42:20 IST" duration-ms="81">
+      <class name="testPackage.CalculatorTest">
+        <test-method is-config="true" signature="instantiateCalculator()[pri:0, instance:testPackage.CalculatorTest@226a82c4]" started-at="2024-03-14T13:42:20 IST" name="instantiateCalculator" finished-at="2024-03-14T13:42:20 IST" duration-ms="16" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- instantiateCalculator -->
+        <test-method signature="DivideByZero()[pri:0, instance:testPackage.CalculatorTest@226a82c4]" started-at="2024-03-14T13:42:20 IST" name="DivideByZero" finished-at="2024-03-14T13:42:20 IST" duration-ms="1" status="PASS">
+          <exception class="java.lang.NumberFormatException">
+            <message>
+              <![CDATA[Attempt to divide by zero]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NumberFormatException: Attempt to divide by zero
+at calculator.Calculator.div(Calculator.java:34)
+at testPackage.CalculatorTest.DivideByZero(CalculatorTest.java:63)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:228)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:961)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at org.testng.internal.thread.graph.TestNGFutureTask.run(TestNGFutureTask.java:22)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:842)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NumberFormatException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DivideByZero -->
+        <test-method signature="AddTwoNumbers()[pri:0, instance:testPackage.CalculatorTest@226a82c4]" started-at="2024-03-14T13:42:20 IST" name="AddTwoNumbers" finished-at="2024-03-14T13:42:20 IST" duration-ms="6" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AddTwoNumbers -->
+        <test-method signature="MultiplyTwoNumbers()[pri:0, instance:testPackage.CalculatorTest@226a82c4]" started-at="2024-03-14T13:42:20 IST" name="MultiplyTwoNumbers" finished-at="2024-03-14T13:42:20 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MultiplyTwoNumbers -->
+        <test-method signature="DivideTwoNumbers()[pri:0, instance:testPackage.CalculatorTest@226a82c4]" started-at="2024-03-14T13:42:20 IST" name="DivideTwoNumbers" finished-at="2024-03-14T13:42:20 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DivideTwoNumbers -->
+        <test-method signature="SubtractTwoNumbers()[pri:0, instance:testPackage.CalculatorTest@226a82c4]" started-at="2024-03-14T13:42:20 IST" name="SubtractTwoNumbers" finished-at="2024-03-14T13:42:20 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SubtractTwoNumbers -->
+        <test-method signature="TestDivideNegativeNumbers()[pri:0, instance:testPackage.CalculatorTest@226a82c4]" started-at="2024-03-14T13:42:20 IST" name="TestDivideNegativeNumbers" finished-at="2024-03-14T13:42:20 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestDivideNegativeNumbers -->
+        <test-method signature="TestOverflowingInputs()[pri:0, instance:testPackage.CalculatorTest@226a82c4]" started-at="2024-03-14T13:42:20 IST" name="TestOverflowingInputs" finished-at="2024-03-14T13:42:20 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestOverflowingInputs -->
+        <test-method signature="TestNegativeSquareRoot()[pri:0, instance:testPackage.CalculatorTest@226a82c4]" started-at="2024-03-14T13:42:20 IST" name="TestNegativeSquareRoot" finished-at="2024-03-14T13:42:20 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestNegativeSquareRoot -->
+        <test-method signature="testPowerOperation()[pri:0, instance:testPackage.CalculatorTest@226a82c4]" started-at="2024-03-14T13:42:20 IST" name="testPowerOperation" finished-at="2024-03-14T13:42:20 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPowerOperation -->
+        <test-method signature="testInvalidInputTrigonometric()[pri:0, instance:testPackage.CalculatorTest@226a82c4]" started-at="2024-03-14T13:42:20 IST" name="testInvalidInputTrigonometric" finished-at="2024-03-14T13:42:20 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testInvalidInputTrigonometric -->
+      </class> <!-- testPackage.CalculatorTest -->
+    </test> <!-- Run Calculator Test -->
+  </suite> <!-- Test My Calculator -->
+</testng-results>

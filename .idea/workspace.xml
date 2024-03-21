@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="bfa40f4f-16ec-49fc-8ac7-cd86f094e04f" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/calculator_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MyCalculatorProject.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/calculator/Calculator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/listeners/ListenersTestNG.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/testPackage/CalculatorTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/testRunners/TestNGRunner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testng.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="jar://$MAVEN_REPOSITORY$/org/testng/testng/7.9.0/testng-7.9.0-sources.jar!/org/testng/ITestListener.java" root0="SKIP_INSPECTION" />
+    <setting file="jar://$MAVEN_REPOSITORY$/org/testng/testng/7.9.0/testng-7.9.0-sources.jar!/org/testng/TestNGException.java" root0="SKIP_INSPECTION" />
+    <setting file="jar://$PROJECT_DIR$/../calculator-1.0.jar!/com/epam/tat/module4/Timeout.class" root0="SKIP_INSPECTION" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="ProjectErrors" />
+    <option name="sortByName" value="true" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 6
+}</component>
+  <component name="ProjectId" id="2dbHGmXMNyWv6hsOC4NMGmpTMMN" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.TestNGRunner.executor&quot;: &quot;Run&quot;,
+    &quot;Maven.MyCalculatorProject [clean].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.MyCalculatorProject [install].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.MyCalculatorProject [org.apache.maven.plugins:maven-clean-plugin:3.2.0:clean].executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;TestNG.C:/Users/avanti_pampana/eclipse-workspace/MyCalculatorProject/testng.xml.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.CalculatorTest (1).executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.CalculatorTest.AddTwoNumbers.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.CalculatorTest.AddTwoNumbersWithDataProvider.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.CalculatorTest.DivideByZero.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.CalculatorTest.DivideNumbers.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.CalculatorTest.DivideTwoNumbers.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.CalculatorTest.MultiplyTwoNumbers.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.CalculatorTest.TestDivideNegativeNumbers.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.CalculatorTest.TestInvalidInputs.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.CalculatorTest.TestNullInputs.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.CalculatorTest.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.CalculatorTest.testInvalidInputTrigonometric.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.CalculatorTest.testPowerOperation.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.CalculatorTest.testUnsupportedOperation.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.testPackage.executor&quot;: &quot;Run&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/avanti_pampana/EngXCleanCode/Functions&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="Calculator" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
+  </component>
+  <component name="RunManager" selected="TestNG.C:/Users/avanti_pampana/eclipse-workspace/MyCalculatorProject/testng.xml">
+    <configuration name="TestNGRunner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="testRunners.TestNGRunner" />
+      <module name="MyCalculatorProject" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="C:/Users/avanti_pampana/eclipse-workspace/MyCalculatorProject/testng.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="MyCalculatorProject" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/testng.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CalculatorTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="MyCalculatorProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="testPackage.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="testPackage" />
+      <option name="MAIN_CLASS_NAME" value="testPackage.CalculatorTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CalculatorTest.testPowerOperation" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="MyCalculatorProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="testPackage.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="testPackage" />
+      <option name="MAIN_CLASS_NAME" value="testPackage.CalculatorTest" />
+      <option name="METHOD_NAME" value="testPowerOperation" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="testPackage" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="MyCalculatorProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="testPackage.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="testPackage" />
+      <option name="TEST_OBJECT" value="PACKAGE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="TestNG.C:/Users/avanti_pampana/eclipse-workspace/MyCalculatorProject/testng.xml" />
+        <item itemvalue="TestNG.CalculatorTest.testPowerOperation" />
+        <item itemvalue="TestNG.CalculatorTest" />
+        <item itemvalue="TestNG.testPackage" />
+        <item itemvalue="Application.TestNGRunner" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="jdk-17.0.10-corretto-17.0.10-4caba194b151-5cd809f4" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="bfa40f4f-16ec-49fc-8ac7-cd86f094e04f" name="Changes" comment="" />
+      <created>1710269766480</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1710269766480</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/testng/testng/7.9.0/testng-7.9.0-sources.jar!/org/testng/TestNGException.java</url>
+          <line>16</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
