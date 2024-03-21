@@ -1,0 +1,15 @@
+
+# Java 
+target
+test-output/
+*.class
+
+# Intellij IDEA
+.idea/
+*.iml
+*.iws
+
+# Eclipse
+.classpath
+.project
+.settings/
