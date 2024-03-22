@@ -1,0 +1,44 @@
+pipeline 
+{
+    agent any
+    stages 
+	{
+        stage('Checkout') 
+	{
+            steps 
+	    {
+                git branch: 'main', url: 'https://github.com/avanticreations/TestCalculatorProject.git'
+        	mvnHome = 'M2_HOME'
+            }
+        }
+  	stage('Build') 
+	{
+            steps
+	    {
+               echo "Build stage would be executed here"
+            }
+        }
+        stage('Test') 
+	{
+            steps 
+		{
+               		bat script: 'MyCalc.bat', returnStatus: true
+        	}
+	}
+      
+        stage('Deploy') 
+	{
+            steps
+	 {
+                echo "Deployment stage would be executed here"
+            }
+        }
+        stage('Notify')
+	 {
+            steps 
+	{
+                echo "Notification stage would be executed here"
+            }
+        }
+    }
+}
