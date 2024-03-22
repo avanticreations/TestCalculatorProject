@@ -8,7 +8,7 @@ pipeline
             steps 
 	    {
                 git branch: 'main', url: 'https://github.com/avanticreations/TestCalculatorProject.git'
-        	mvnHome = 'M2_HOME'
+        	
             }
         }
   	stage('Build') 
